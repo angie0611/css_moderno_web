@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #4e4e4e;
+  list-style-type: none;
+  box-sizing: border-box;
+
+}
+
+.father {
+  display: flex;
+  flex-direction: column;
+  background-image: radial-gradient(
+    circle,
+    #3a3b38,
+    #2f3230,
+    #262928,
+    #1e2020,
+    #161718
+  );
+  
+}
+
+header {
+  background-color: #2a2a2a;
+  padding-top: 10px;
+}
+
+header > nav > ul {
+  
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+
+.active {
+  cursor: pointer;
+ transition: all ease-out 220ms;
+}
+
+.interactable {
+  cursor: pointer;
+  transition: all ease-out 220ms;
+}
+
+
+.mouse {
+
+  cursor: pointer;
+  transition: all ease-out 220ms;
+}
+
+.pointer 
+{ 
+
+  cursor: pointer;
+  transition: all ease-out 220ms;
+
+}
+
+.interactable:hover {
+  padding: 10px;
+  border-bottom: 3px solid #c23469;
+}
+
+.mouse:hover {
+  padding: 10px;
+  border-bottom: 3px solid #c23469;
+}
+
+.active:hover {
+  padding: 10px;
+  border-bottom: 3px solid #c23469;
+}
+
+.pointer:hover {
+  padding: 10px;
+  border-bottom: 3px solid #c23469;
+}
+
+.Escuela img 
+{
+  width: 50vh;
+  min-width: 150px;
+  max-width: 500px;
+  gap: 10px;
+
+}
+
+.Escuela {
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#407369;
+  padding: 20px;  
+}
+
+h3 {
+  color: white;
+}
+
+p {
+
+  color: white;
+}
+
+
+  
+.logos 
+{
+width: 100vw;
+height: 40%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+background-color: rgb(14, 14, 66);
+}
+
+.logos img {
+  width: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  max-width: 350px;
+}
+
+.logos div {
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contacto {
+
+height: 100vh;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+background-color: rgb(14, 14, 66);
+}
+
+.contacto img
+{
+
+  width: 60%;
+  min-width: 150px;
+  max-width: 300px;
+
+}
